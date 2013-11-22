@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "namecheap-ruby"
   spec.version       = Namecheap::VERSION
   spec.authors       = ["James Newton"]
-  spec.email         = ["james@Zaphyous.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["hello@jamesnewton.com"]
+  spec.description   = %q{Ruby wrapper for the Namecheap API}
+  spec.summary       = %q{Ruby wrapper for the Namecheap API}
+  spec.homepage      = "https://github.com/jameswritescode/namecheap-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
