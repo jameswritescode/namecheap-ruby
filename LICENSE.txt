@@ -1,4 +1,4 @@
-Copyright (c) 2013 James Newton
+Copyright (c) 2013 James Newton <hello@jamesnewton.com>
 
 MIT License
 
