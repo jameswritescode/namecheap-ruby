@@ -8,6 +8,10 @@ module Namecheap::Domain
     get 'domains.check', DomainList: domains
   end
 
+  def create(*)
+    raise 'implementation needed'
+  end
+
   def get_contacts(domain)
     get 'domains.getContacts', DomainName: domain
   end
@@ -37,6 +41,10 @@ module Namecheap::Domain
     params.merge!(PromotionCode: promo_code) unless promo_code.nil?
 
     get 'domains.renew', params
+  end
+
+  def set_contacts(*)
+    raise 'implementation needed'
   end
 
   def set_registrar_lock(domain, lock)
