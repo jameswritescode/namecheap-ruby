@@ -4,6 +4,7 @@ require 'namecheap/version'
 require 'namecheap/configuration'
 require 'namecheap/api'
 require 'namecheap/resources/domain'
+require 'namecheap/resources/dns'
 
 module Namecheap
   class << self
