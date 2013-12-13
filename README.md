@@ -1,12 +1,16 @@
 # Namecheap
 
-TODO: Write a gem description
+A gem to use the Namecheap API easily.
+
+There are many like it, but this one is mine.
+
+This is a work in progress, but totally useable. Feel free to contribute.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'namecheap'
+    gem 'namecheap-ruby'
 
 And then execute:
 
@@ -14,11 +18,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install namecheap
+    $ gem install namecheap-ruby
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Namecheap.configure user: 'something', api_key: 'something', ip: 'something'
+
+Namecheap::Domain.get_list
+```
 
 ## Contributing
 
