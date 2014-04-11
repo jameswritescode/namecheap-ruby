@@ -1,1 +1,1 @@
-require 'namecheap-ruby'
+require_relative 'namecheap-ruby'
