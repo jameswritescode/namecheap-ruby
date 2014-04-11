@@ -47,6 +47,7 @@ module Namecheap::DNS
       host_params["EmailType#{i}"]  = hash[:email_type] if hash[:email_type]
       host_params["TTL#{i}"]        = hash[:ttl] if hash[:ttl]
     end
+    host_params
   end
 
   def format_mailboxes(mailboxes)
